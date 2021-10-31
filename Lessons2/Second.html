@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lesson2</title>
+</head>
+
+<body>
+
+<!-- с помощью ctrl + space, находясь внутри скобок курсором, можно вызвать панель помощи с предполагаемыми значениями -->
+
+<h3> div и span</h3>
+
+
+<!-- <div> - блочный элемент, <Span> - строчный
+С помощью стилей (style) можно конвертировать любой тип элемента в любой другой-->
+
+<div>привет</div>
+<div>как</div>
+<div>дела</div>
+
+<span>привет</span> <span>как</span> <span>дела</span>
+
+<!-- <ul>  - открытие не нумерованного списка, внутри которого, через <li>, можно добавлять пункты. Это могут быть
+             картинка, текст, ссылки и т.д.-->
+
+<h3> списки </h3>
+
+<ul>
+  <li>Страна</li>
+  <li>Город</li>
+  <li>Дом</li>
+</ul>
+
+<!-- <ol>  - открытие  нумерованного списка, внутри которого, через <li>, можно добавлять пункты. Это могут быть
+             картинка, текст, ссылки и т.д.-->
+
+<ol>
+  <li>Проснуться</li>
+  <li>Одеться</li>
+  <li>Почистить зубы</li>
+</ol>
+
+<!--можно соединить списки-->
+
+<ul>
+  <li>Страна</li>
+  <li>Город</li>
+  <ol>
+    <li>Проснуться</li>
+    <li>Одеться</li>
+    <li>Почистить зубы</li>
+  </ol>
+  <li>Дом</li>
+</ul>
+
+<!--можно добавлять параметры: start , reversed (в обратном порядке), type-->
+
+<ol start="15" reversed="reversed">
+  <li>Кофе</li>
+  <li>Молоко</li>
+  <li>Кружка</li>
+</ol>
+
+<ol type=A>
+  <li>Кофе</li>
+  <li>Молоко</li>
+  <li>Кружка</li>
+</ol>
+
+<!--<dl> и </dl> - список для словарей. <dt></dt> ( definition title - само слово) и <dd> </dd> (definition description -  определение) - перечисление в это списке-->
+
+<dl>
+  <dt>Кофе</dt>
+  <dd>Крепкий тонизирующий напиток</dd>
+</dl>
+
+
+<!--оформление Меню списком-->
+<h3> меню и навигация </h3>
+<ul>
+  <li> <a href="#1"> Главное меню </a></li>
+  <li> <a href="#2"> назад </a></li>
+</ul>
+
+
+
+<!--Навигация-->
+
+<nav>
+<a href="#1"> Главное меню </a></li>
+<a href="#2"> назад </a></li>
+</nav>
+
+<hr/><br/><br/>
+
+<h3> Таблицы</h3>
+<!--Таблицы   55 минута в видео-->
+
+<!-- С помощью <tr> можно задать начала и конец ячеек в строке . Каждый <th> - это заглавная ячейка в таблице.
+                                                                      а <td> - это обычная ячейка в таблице-->
+<table border="1">
+  <caption>Доход и расход</caption>
+
+<tr>
+  <th>Доход</th>   <!-- заголовочная ячейка таблицы -->
+  <th>Расход</th>
+  <th>Итог</th>
+</tr>
+  <td>1000</td>   <!-- ячейка с данными -->
+  <td>500</td>
+
+</table>
+
+<!-- можно объдинять ячейки в таблице. С помощью параметра colspan="123" - объединяются строки
+                                     а с помощью параметра rowspan="123" - объединяются столбцы. -->
+
+<table border="1">
+<tr></tr>
+
+
+</table>
+<hr/><br/><br/>
+
+<!--Формы-->
+<h3> Формы</h3>
+
+<form action="#action1">
+  <input type="text" name="login" placeholder="Введите логин">
+  <input type="password" name="password" placeholder="введите пароль">
+  <input type="submit" name="submit" value="Закинуть на сайт">
+
+</form>
+
+<br/><br/>
+
+<form action="#">
+  Имя: <input type="text" name="Name"> <br/>
+  Фамилия: <input type="text" name="Secondname"> <br/>
+  Отчество: <input type=text name="patronymic"> <br/>
+  email: <input type=email name="email" placeholder="example@email.ru"> <br/>
+  Возраст: <input type=number name="age"> <br/>
+  Любимый цвет: <input type=color name="color"> <br/>
+
+  Выберети любимую еду: <select name="food" size="6" multiple="multiple">
+    <optgroup label="Сладости"
+    <option value="pie"> Пирог </option>
+    <option value="cake" selected="selected"> Торт </option>
+    <option value="candy" label="Конфеты"></option>
+  </optgroup>
+  <optgroup label="Мясо"
+  <option value="porky"> Свинина </option>
+  <option value="beef" selected="selected"> Говядина </option>
+  <option value="chicken" label="Курица"></option>
+  </optgroup>
+  </select> <br/><br/>
+
+  Расскажите о себе: <textarea rows="4" cols="40" name="about myself">
+
+ </textarea> <br/>
+
+
+  <input type="radio" name="sex" value="male"> Мужчина
+  <input type="radio" name="sex" value="female"> Женщина <br/>
+
+  <input type="checkbox" name="vehicle" value="car"> Есть машина
+  <input type="checkbox" name="vehicle" value="bike"> Есть мотоцикл <br/><br/>
+
+  <input type="submit" name="submit" value="Закинуть на сайт">
+  <input type="reset" name="reset" value="очистить">
+
+</form>
+
+
+
+</body>
+
+</html>
