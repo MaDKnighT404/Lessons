@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.task2.html">
@@ -83,6 +83,7 @@
       <workItem from="1635709513349" duration="15227000" />
       <workItem from="1635726052585" duration="31000" />
       <workItem from="1635726188975" duration="28000" />
+      <workItem from="1635800001637" duration="65000" />
     </task>
     <servers />
   </component>
@@ -112,23 +113,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635711566569">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1635711566569" />
-    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1635726077896">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1635726077896" />
-    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635711574616">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1635711574616" />
-    <state x="943" y="315" key="search.everywhere.popup" timestamp="1635711598076">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="943" y="315" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1635711598076" />
   </component>
 </project>

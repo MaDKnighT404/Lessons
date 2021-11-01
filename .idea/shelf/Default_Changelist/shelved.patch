@@ -1,0 +1,58 @@
+Index: Lesson3/Third.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson3/Third.html b/Lesson3/Third.html
+--- a/Lesson3/Third.html	(revision 5461668b620d88e7b5107431569c1610176c2a7a)
++++ b/Lesson3/Third.html	(date 1635800169031)
+@@ -4,7 +4,46 @@
+     <meta charset="UTF-8">
+     <title>Title</title>
+ </head>
++
++<!-- задать id какого-то параметра. Название уникальное для каждого id. Не может начинаться с цифры -->
++<!-- задать класс. Название уникальное для каждого класса. Можно перечислять через пробел у одного элемента.
++ Все стили навешиваться через классы, а не через id!!!
++ -->
++<style>
++    p {color: black;}
++    #privet {color: #ff0000;}
++    .hello { color:green; }
++    .big {font-size:40px;}
++     * {color: black;}     /*  * - это означает все элементы   /*
++    .main h2 {color:green;}  /* сделает все элементы h2 зеленым цветом, при условии, что у него есть класс main*/
++</style>
++
+ <body>
+ 
++<h1> Введение в CSS</h1>
++
++CSS можно использоваться с помощью стилей (style). Можно добавлять к отдельным тегам (тогда будет <b>строчный стиль</b>)<br/>
++или сделать его <b>глобальным</b> ( тогда в хэд нужно добавить тэг <!-- <style> </style> -->  , и через селектор ( {} ) добавляются параметры) <br/>
++Все css стили можно вынести в отдельный файл (<b>связанные стили</b>). Количество связанных стилей - неограниченно. Они все свяжутся друг с другом. <br/>
++ddd
++<!-- <link rel="stylesheet" type="text/css" href="mysite.css"/>       ссылка на файл на локальном компьютере-->
++<!-- <link rel="stylesheet" type="text/css" href="http://mysite.ru/main.css"/>  ссылка на файл на сайт в интернете -->
++
++<p>Комментироваться с помощью /* текст */</p>
++
++
++<p id="privet"> Привет</p>
++
++<p class="hello big" > Пока </p>
++
++<hr/>
++
++<a href="https://codepen.io/puzankov/pen/GgbWKy"> Ссылка на то, как объдинять и задавать несколько классов</a>
++
++<div class="main">
++    <h2> Как дела?</h2>
++</div>
++<h2> Как дела?</h2>
++
+ </body>
+ </html>
+\ No newline at end of file
