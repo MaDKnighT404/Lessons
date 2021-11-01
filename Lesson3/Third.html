@@ -3,8 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+<style>
+
+    * {color:black;} /* * - выделяет вообще все тэги */
+    #name1 {background: aqua;} /* название id. Желательно не использовать */
+    #name2 {font-size: 30px;}
+    .greenyellow {color:greenyellow;} /* название класса. Используем только классы для удобства и чтобы не было ошибок */
+    .big {font-size: 36px;} /* на тэге в тексте классы можно перечислять через пробел */
+     div[id]  {color:blue;} /* все элементы div, у которых есть id */
+
+
+</style>
+
+    <link rel="stylesheet" type="text/css" href="mysite.css"/>     /* * - связывает файл со стилем с локального компа */
+    <link rel="stylesheet" type="text/css" href="http://mysite.ru/main.css"/>   /* * - всвязывает файл со стилем с конкретной страницы в интернете */
+
 </head>
+
 <body>
 
+<h1> Введение в css. Стили </h1>
+
+    <p>тег "стиль" вставляется только в хэд! <br/>
+       Стили бывают 3-х типов. Инлайновый (строчный) - вставляется прямо в строке. Глобальный - описан в head. Связанный - то, что хранится в другом файле<p>
+<p id="name1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab in laudantium.</p>
+
+<h2 class="greenyellow big"> для тэгов в тексте классы можно перечислять через пробел </h2>
+
+<a href="https://codepen.io/puzankov/pen/GgbWKy"> применение id и классов к разным текстам из div </a>
+
+<div id="name2"> Синий цвет </div>
+
+
 </body>
+
 </html>
