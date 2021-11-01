@@ -2,9 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Task3</title>
 </head>
 <body>
+
+<form>
+    Name <br/>
+    <input type="text" name="name"> <br/><br/>
+    Email <br/>
+    <input type="email" name="email"> <br/><br/>
+    Sex <br/>
+    <input type="radio" name="sex" value="male"> Male
+    <input type="radio" name="sex" value="female"> Male <br/><br/>
+    Current status <br/>
+    <input type="checkbox" name="status" checked > Student<br/>
+    <input type="checkbox" name="status"> Employed<br/>
+    <input type="checkbox" name="status"> Unemployed<br/><br/>
+    Mounth and Yeat of birth<br/>
+
+        <select name="month">
+          <option selected>January</option>
+          <option>February</option>
+          <option>March</option>
+          <option>April</option>
+          <option>May</option>
+          <option>June</option>
+          <option>July</option>
+          <option>August</option>
+          <option>September</option>
+          <option>October</option>
+          <option>November</option>
+          <option>December</option>
+        </select>
+<select name="year">
+    <option>1990</option>
+    <option>1991</option>
+    <option>1992</option>
+    <option>1993</option>
+    <option>1994</option>
+</select> <br/><br/>
+
+    Skills and Technologies <br/>
+
+    <select name="skills" size="10" multiple="multiple"><
+            <optgroup label="Tech skill">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+                <option>git</option>
+            </optgroup>
+            <optgroup label="Soft skill">
+                <option>Time Management</option>
+                <option>Proactivity</option>
+                <option>Teamwork</option>
+                <option>Leadership</option>
+            </optgroup>
+    </select> <br/><br/>
+
+    Photo <br/>
+    <input type="file" name="file"> <br/><br/>
+
+    Comments <br/>
+    <textarea cols="45" rows="5"></textarea> <br/><br/>
+
+<input type="submit" value="save">
+
+
+</form>
+
+
+
 
 </body>
 </html>
