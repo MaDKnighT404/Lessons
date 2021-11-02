@@ -1,0 +1,9 @@
+h1 {color:orange; text-align: right;}
+body{font-size: 200%;}
+
+p:first-letter {color:red;
+                font-size: 150%;}
+em {background: green;
+    color:white;}
+#warehouse > .plants-list  h2 {color: orange;}
+ol{fo}
