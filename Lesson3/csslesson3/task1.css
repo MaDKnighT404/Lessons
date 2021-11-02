@@ -2,8 +2,17 @@ h1 {color:orange; text-align: right;}
 body{font-size: 200%;}
 
 p:first-letter {color:red;
-                font-size: 150%;}
-em {background: green;
+                font-size: 150%;
+                font-weight: bold;}
+em {background:green;
     color:white;}
-#warehouse > .plants-list  h2 {color: orange;}
-ol{fo}
+
+
+
+#allotment h2 {color: orange;}
+#allotment .fruits-list li {color:gray;}
+.vegetables-list  {color:red;}
+
+#warehouse h2 {color:blue;}
+#warehouse .fruits-list li {color:green;}
+

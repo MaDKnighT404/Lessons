@@ -26,10 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642dd36d-4f34-4ae8-a57e-1019886b8171" name="Default Changelist" comment="lesson 3">
-      <change afterPath="$PROJECT_DIR$/Lesson3/csslesson3/task1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson3/task1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/Third.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3/Third.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson3/csslesson3/task1.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3/csslesson3/task1.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +51,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -99,7 +98,7 @@
       <workItem from="1635726052585" duration="31000" />
       <workItem from="1635726188975" duration="28000" />
       <workItem from="1635800001637" duration="3186000" />
-      <workItem from="1635852587107" duration="10794000" />
+      <workItem from="1635852587107" duration="15811000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 3">
       <created>1635804926184</created>
@@ -139,6 +138,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="lesson 3" />
     <option name="LAST_COMMIT_MESSAGE" value="lesson 3" />
   </component>
