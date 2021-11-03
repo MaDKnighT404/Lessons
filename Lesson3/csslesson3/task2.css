@@ -1,0 +1,15 @@
+/* p:not(:last-of-type) {color: green;}    - выделит все элементы p, кроме самого последнего
+p:not(:nth-child(3)) {color: green;}  - выделит все элементы p, кроме 3
+*/
+
+
+/* решение 1*/
+
+/*
+p:first-of-type {text-transform: uppercase;}
+p:last-of-type {color:#999;}
+*/
+
+/* решение 2*/
+p:nth-child(2){text-transform: uppercase;}
+p:nth-child(4){color:#999;}

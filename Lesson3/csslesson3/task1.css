@@ -1,4 +1,4 @@
-/*
+
 h1 {color:orange; text-align: right;}
 
 
@@ -24,11 +24,11 @@ tbody td~td{background: green;
          font-weight: bold;
          text-align: center;
          color:white;}
-*/
 
 
 
-/* Как еще можно выполнить задание */
+
+/* Как еще можно выполнить задание
 
 
 
@@ -38,8 +38,8 @@ p {font-size: 30px; text-align: left;}
 em {background-color:#00a100;color:#fff}
 
 h2 {text-align: left; font-size: 2em }
-#allotment h2 { color:#orange;}
-#warehouse h2 { color:#blue}
+#allotment h2 { color:orange;}
+#warehouse h2 { color:blue}
 li {font-size: 20px; font-weight: bold;}
 #allotment .fruits-list {color:#808080}
 .vegetables-list {color:#ff0000}
@@ -49,5 +49,5 @@ table {font-weight:bold; font-size: 20px; text-align: center}
 tbody tr td:nth-child(1) {color: orange;text-align:left; font-weight: normal }
 tbody tr td:nth-child(n+2) {background-color: green;color:white}
 
-
+*/
 
