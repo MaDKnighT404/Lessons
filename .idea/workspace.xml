@@ -25,7 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="642dd36d-4f34-4ae8-a57e-1019886b8171" name="Default Changelist" comment="lesson 3" />
+    <list default="true" id="642dd36d-4f34-4ae8-a57e-1019886b8171" name="Default Changelist" comment="lesson 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson3/csslesson3/task1.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3/csslesson3/task1.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -47,15 +51,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Third.html">
+  <component name="RunManager" selected="JavaScript Debug.task1.html (1)">
     <configuration name="Third.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Lessons/Lesson3/Third.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="task1.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Lessons/Lesson3/task1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="task1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Lessons/Lessons2/task1.html" useBuiltInWebServerPort="true">
@@ -69,6 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.task1.html (1)" />
         <item itemvalue="JavaScript Debug.Third.html" />
         <item itemvalue="JavaScript Debug.task2.html" />
         <item itemvalue="JavaScript Debug.test.html" />
@@ -88,6 +98,7 @@
       <workItem from="1635726052585" duration="31000" />
       <workItem from="1635726188975" duration="28000" />
       <workItem from="1635800001637" duration="3186000" />
+      <workItem from="1635852587107" duration="15811000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 3">
       <created>1635804926184</created>
@@ -127,6 +138,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="lesson 3" />
     <option name="LAST_COMMIT_MESSAGE" value="lesson 3" />
   </component>
