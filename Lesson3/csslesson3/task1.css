@@ -1,5 +1,6 @@
+/*
 h1 {color:orange; text-align: right;}
-body{font-size: 200%;}
+
 
 p:first-letter {color:red;
                 font-size: 150%;
@@ -10,9 +11,43 @@ em {background:green;
 
 
 #allotment h2 {color: orange;}
-#allotment .fruits-list li {color:gray;}
+#allotment .fruits-list {color:gray;}
 .vegetables-list  {color:red;}
 
 #warehouse h2 {color:blue;}
-#warehouse .fruits-list li {color:green;}
+#warehouse .fruits-list {color:green;}
+
+thead {text-align: center;
+  font-weight: bold;}
+tbody td:first-child  {color: orange;}
+tbody td~td{background: green;
+         font-weight: bold;
+         text-align: center;
+         color:white;}
+*/
+
+
+
+/* Как еще можно выполнить задание */
+
+
+
+h1 {text-align: right; color:#FF8C00}
+p:first-letter {color:#ff0000; font-size: 60px;}
+p {font-size: 30px; text-align: left;}
+em {background-color:#00a100;color:#fff}
+
+h2 {text-align: left; font-size: 2em }
+#allotment h2 { color:#orange;}
+#warehouse h2 { color:#blue}
+li {font-size: 20px; font-weight: bold;}
+#allotment .fruits-list {color:#808080}
+.vegetables-list {color:#ff0000}
+#warehouse .fruits-list {color:#228B22}
+
+table {font-weight:bold; font-size: 20px; text-align: center}
+tbody tr td:nth-child(1) {color: orange;text-align:left; font-weight: normal }
+tbody tr td:nth-child(n+2) {background-color: green;color:white}
+
+
 
