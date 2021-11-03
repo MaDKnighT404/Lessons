@@ -1,6 +1,6 @@
 body {font-size: 20px;font-family: monospace;}
-label {text-decoration: underline; margin:10px;}
-.red, .green, .blue {color: white; border-radius: 7px;padding: 1px 6px 1px 6px; }
+label {text-decoration: underline; margin:45px;}
+.red, .green, .blue {color: white; border-radius: 7px;padding: 1px 6px 1px 6px; margin-left: 15px;}
 .red {background:red;}
 .green {background:green;}
 .blue {background:blue;}
