@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Economica);
+
+.back{
+    background:purple;}
+
+
+.menu {
+
+    width: 900px;
+    overflow: hidden
+    ;}
+
+a   {
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+    font-family: Economica, serif;
+    padding:10px 20px 10px 20px;
+    float: right;}
+
+
+a:hover {background:gray;
+    color:black;}
