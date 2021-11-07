@@ -1,11 +1,13 @@
+body {font-family: monospace;}
 
 * { -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;}
 
 .conteiner {
-    width: 300px;
+    width: 250px;
     margin-left:100px;
+    margin-top: 50px;
     padding:5px;
     position: relative;
     background: #EE8129;
@@ -20,8 +22,8 @@
     padding:20px;
 }
 
-.conteiner2 {width:290px;
-    height:300px;
+.conteiner2 {width:240px;
+
 
     background:white;}
 
@@ -30,29 +32,45 @@
     font-size:110%;}
 .sup {font-size:150%;
     position:absolute;
-    left:92px;}
+    left:70px;}
 .money{font-size:300%;}
 .month{font-size:75%}
 .cost { color:#35495A;}
 .table {
     position: relative;
-    margin: 0 10px;
+    margin: 15px 10px;
     color:#71757A;
     list-style-type: none;
-    text-align: left;
-    border:2px solid;}
+    text-align: justify;
+}
 
 li{padding:5px}
 li:nth-child(odd) { background-color: #EDF5FD;}
 li:nth-child(even) { background-color: #F5F5F6;}
-li:nth-child(odd):before { content: '';
-    background-color: #EDF5FD;
+
+
+
+li:before {content: url("../csslesson5/-.jpg");
+    zoom:5%;
+    position: absolute;
+    left: 200px;}
+
+
+button {background: #EE8129;
+    color:white;
+    text-transform: uppercase;
+    border: 1px white;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    font-size:80%;
+    padding: 10px 60px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 10px;}
+
+button:hover {  background-color: gray;
+    color: white;
+
 }
-
-li:before { content: url("../csslesson5/-.jpg");
-            zoom:5%;
-
-            }
-
 
 
