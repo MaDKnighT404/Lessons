@@ -2,15 +2,19 @@
 .menu {background: #a64dff;
     margin-top:40px;
     width: 100%;}
+
 ul {display:flex;
     padding:0;
     justify-content: center;}
+
 li {list-style: none;
     padding:15px 30px 15px 30px;}
+
 a   {text-decoration:none;
     color:white;
     font-family: Economica, serif;
     font-size: 20px;}
+
 li:hover{background: #eeeeee;
          color:#696969;}
 

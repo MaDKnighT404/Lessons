@@ -5,7 +5,7 @@ body {font-family: monospace;}
     box-sizing: border-box;}
 
 .conteiner {
-    width: 250px;
+    width: 240px;
     margin-left:100px;
     margin-top: 50px;
     padding:5px;
@@ -22,7 +22,7 @@ body {font-family: monospace;}
     padding:20px;
 }
 
-.conteiner2 {width:240px;
+.conteiner2 {width:230px;
 
 
     background:white;}
@@ -36,13 +36,15 @@ body {font-family: monospace;}
 .money{font-size:300%;}
 .month{font-size:75%}
 .cost { color:#35495A;}
-.table {
+
+.table {padding:0;
     position: relative;
-    margin: 15px 10px;
+    margin: 25px 10px;
     color:#71757A;
     list-style-type: none;
-    text-align: justify;
-}
+    text-align: start;}
+
+.table > li {padding-inline-start: 30px;}
 
 li{padding:5px}
 li:nth-child(odd) { background-color: #EDF5FD;}
@@ -50,23 +52,22 @@ li:nth-child(even) { background-color: #F5F5F6;}
 
 
 
-li:before {content: url("../csslesson5/-.jpg");
+li:before {content: url("../csslesson5/-.png");
     zoom:5%;
     position: absolute;
-    left: 200px;}
+    left: 100px;}
 
 
 button {background: #EE8129;
     color:white;
     text-transform: uppercase;
-    border: 1px white;
     border-bottom: 2px solid black;
     border-radius: 5px;
     font-size:80%;
-    padding: 10px 60px;
+    padding: 10px 40px;
     transition-duration: 0.4s;
     cursor: pointer;
-    margin-bottom: 10px;}
+    margin: 20px 0 ;}
 
 button:hover {  background-color: gray;
     color: white;
