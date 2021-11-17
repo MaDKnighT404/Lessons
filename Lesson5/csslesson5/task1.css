@@ -1,33 +1,83 @@
 @import url(https://fonts.googleapis.com/css?family=Economica);
 
-ul, li {list-style: none;}
-.menu {background: #1aa4ff;
-    margin-top:40px;
-    width: 100%;}
-
-.menu ul {display:flex;
-    padding:0;
-    justify-content: center;}
-
- .menu li {list-style: none;
-    padding:10px;
-      margin: 0 10px;}
+/* обнуление */
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
 
 
- a   {text-decoration:none;
-    color:white;
-    font-family: Economica, serif;
-    font-size: 20px;font-weight: bold;}
+html,body {
+    background: white;
+    height: 100%;
+    font-family: economica, impact, sans-serif;
+    color: black;
+    font-size: 35px;
+}
 
- li:hover, li:hover a{ background: #eeeeee;
-         color:#9f9f9e;}
+.wrapper {
+    height: 100%;
+    padding: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+
+}
+.menu__list a {
+    text-transform:uppercase;
+    color:#fff;
+}
+.menu li {position: relative;
+    list-style: none;
+}
+
+.menu{background:#1aa4ff;
+width: 2400px;}
 
 
- /* Sub */
-
-.menu li ul{ position: absolute;
-    padding: 100px;
-    min-width: 150px;}
 
 
+.menu__list{
+    display: flex;
+
+    padding: 10px;
+    width: 900px;
+    margin:0 0 0 450px;
+}
+
+.menu__list > li {
+    margin: 0 40px 0 0;
+}
+
+.menu__list > li:hover .sub-menu__list {
+    display:flex;
+}
+
+.menu__link{
+    color:black;
+}
+
+.sub-menu__list {
+    position: absolute;
+    left: -942%;
+    top: 25px;
+    display: none;
+    white-space: nowrap;
+    padding: 25px 0 20px 40px;
+;
+}
+.sub-menu__list li {
+    background: #808291;
+    padding: 10px 0 10px 60px;}
+
+.sub-menu__list a {
+    text-transform: capitalize;
+}
+
+.sub-menu__link{
+    margin: 0 40px 0 0;
+}
 
