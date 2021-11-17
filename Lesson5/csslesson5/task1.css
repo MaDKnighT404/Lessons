@@ -26,7 +26,7 @@ html,body {
     text-decoration: none;
 
 }
-.menu__list a {
+.menu__list a { font-weight:bold;
     text-transform:uppercase;
     color:#fff;
 }
@@ -49,7 +49,8 @@ width: 2400px;}
 }
 
 .menu__list > li {
-    margin: 0 40px 0 0;
+    margin: 0 60px 0 0;
+
 }
 
 .menu__list > li:hover .sub-menu__list {
@@ -70,10 +71,10 @@ width: 2400px;}
 ;
 }
 .sub-menu__list li {
-    background: #808291;
+    background: #eeeeee;
     padding: 10px 0 10px 60px;}
 
-.sub-menu__list a {
+.sub-menu__list a { color:#888888;
     text-transform: capitalize;
 }
 
