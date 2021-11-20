@@ -1,5 +1,5 @@
 body {font-family: monospace;}
-
+html {margin:100px 500px}
 * { -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;}
@@ -32,10 +32,11 @@ body {font-family: monospace;}
     font-size:110%;}
 .sup {font-size:150%;
     position:absolute;
-    left:70px;}
+    left:84px;}
 .money{font-size:300%;}
 .month{font-size:75%}
-.cost { color:#35495A;}
+.cost { color:#35495A;
+        margin-left: 30px;}
 
 .table {padding:0;
     position: relative;
