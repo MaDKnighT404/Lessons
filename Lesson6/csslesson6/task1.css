@@ -1,0 +1,129 @@
+/* обнуление */
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,body {
+    background: white;
+    height: 1000px;
+    font-family: 'Economica', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content:center;
+}
+
+.main__conteiner{
+    border:2px solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width:900px;
+    margin-top: 300px;
+}
+
+.header {
+    border: 1px solid red;
+    color:#40525c;
+    margin:50px 0 80px 0;
+    text-transform: uppercase;
+    font-size: 26px;
+    
+}
+
+[class*="conteiner_"] {
+    border:1px solid blue;
+    width: 270px;
+    margin-left: -30px;
+}
+
+[class*="title_"] {
+    background:#2ac2d5;
+    color:#fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding:10px 60px;
+    text-align: center;
+    border-radius:4px 4px 0 0;
+}
+
+[class*="title2"] {
+    margin:10px 0;
+    text-transform: uppercase;
+}
+
+[class*="cost"]{
+    position: relative;
+    margin:10px 0;
+}
+
+[class*="sup"] {
+    position: absolute;
+    font-size: 18px;
+    left:73px;
+    top:3px;
+
+}
+
+[class*="money"] {
+    
+    font-size: 34px;
+}
+
+[class*="month"] {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+[class*="table"] {
+    position: relative;
+    display: inline-block;
+    width: 240px;
+    text-align: start;
+    
+    margin:10px 0;
+}
+
+[class*="cell"] {
+    padding:4px;
+    margin:1px;
+    color:#7f8086;
+    padding-inline-start: 50px;
+}
+
+[class*="cell"]::before { 
+    content: url("../csslesson6/-.png");
+    position: absolute;
+    zoom: 5%;
+    left: 400px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+li:nth-child(odd) { 
+    background-color: #EDF5FD;
+}
+li:nth-child(even) {
+    background-color: #F5F5F6;
+}
+
+.button__left , .button__right {
+    padding:12px 75px;
+    margin:10px 0 20px 0;
+    background: #2f70a8;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+} 
