@@ -2,7 +2,6 @@
 *,*::before,*::after {
     margin: 0;
     padding: 0;
-    border: 0;
     box-sizing: border-box;
 }
 html,body {
@@ -37,44 +36,75 @@ body{
     font-size: 26px;
     
 }
+.conteiner__border {
+    border-right: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    border-radius: 0 0 5px 5px;
+}
+
+.conteiner__border__center {
+    border:3px solid #ee8129;
+}
+
+-.conteiner__center {
+    box-shadow: 3px 3px 3px 3px rgb(24, 11, 11);
+}
+
+.conteiner {
+    display: flex;
+    margin:0 auto;
+}
 
 [class*="conteiner_"] {
-    border:1px solid blue;
     width: 270px;
-    margin-left: -30px;
+    
 }
 
 [class*="title_"] {
-    background:#2ac2d5;
     color:#fff;
     font-size: 20px;
+    font-weight:900;
     text-transform: uppercase;
     padding:10px 60px;
     text-align: center;
     border-radius:4px 4px 0 0;
+    
+}
+
+.title__left {
+    background:#2ac2d5;
+}
+
+.title__center {
+    background:#ee8129;
+}
+
+.title__right {
+    background:#1cb79a;
 }
 
 [class*="title2"] {
-    margin:10px 0;
     text-transform: uppercase;
+    padding:10px 0 0 0;
 }
 
 [class*="cost"]{
     position: relative;
-    margin:10px 0;
+    color:#35495a;
+    left:20px;
 }
 
 [class*="sup"] {
     position: absolute;
-    font-size: 18px;
-    left:73px;
-    top:3px;
+    font-size: 24px;
+    left:54px;
+    top:9px;
 
 }
 
 [class*="money"] {
-    
-    font-size: 34px;
+    font-size: 65px;
 }
 
 [class*="month"] {
@@ -117,8 +147,8 @@ li:nth-child(even) {
     background-color: #F5F5F6;
 }
 
-.button__left , .button__right {
-    padding:12px 75px;
+[class*="button__"] {
+    padding:12px 75px 9px 75px;
     margin:10px 0 20px 0;
     background: #2f70a8;
     color: #fff;
@@ -126,4 +156,24 @@ li:nth-child(even) {
     font-size: 12px;
     cursor: pointer;
     border-radius: 5px;
-} 
+    border-bottom: 3px solid #0e304e;
+    transition-duration: 0.4s;
+}
+
+.button__center {
+    background: #ee8129;
+}
+
+.button__left:hover {
+    background: #2ac2d5;
+}
+
+.button__center:hover {
+    background:#ca6b1d;
+}
+
+.button__right:hover {
+    background:#1cb79a;
+}
+
+
