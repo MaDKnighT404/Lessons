@@ -1,0 +1,68 @@
+/* обнуление */
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+}
+html,body {
+    background: white;
+    height: 100%;
+    width: 100%;
+    font-family: 'Economica', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../csslesson6/back.png);
+}
+
+.what {
+    color: #ee8129;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #3170a8;
+    display: flex;
+    justify-content: center;
+    margin-top:100px;
+    margin-bottom: 50px;
+    font-size: 42px;
+}
+
+.main {
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+
+.conteiner {
+    display: flex;
+    border: 2px solid green;
+    margin-left: 40px;
+
+}
+
+.picture {
+    display: block;
+    width:75px;
+    height:75px;
+    background:orange;
+}
+
+.review {
+    display: block;
+    width: 300px;
+    height:75px;
+    background: white;
+    margin-left: 20px;
+    
+}
