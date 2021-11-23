@@ -29,7 +29,6 @@ body {
     display: flex;
     justify-content: center;
     margin-top:100px;
-    margin-bottom: 50px;
     font-size: 42px;
 }
 
@@ -41,11 +40,18 @@ body {
 .main {
     display: flex;
     width: 1000px;
+    flex-wrap: wrap;
 }
 .conteiner {
     display: flex;
     margin-left: 40px;
+    margin-top: 50px;
 }
+
+
+
+
+
 
 /* тут хранятся картинки. Общий класс [class*="picture"]  должен обязательно находится ниже */
 
@@ -55,6 +61,10 @@ body {
 
 .picture2 {
     background: url(pic2.png);
+}
+
+.picture3 {
+    background: url(pic3.png);
 }
 
 [class*="picture"] {
@@ -70,17 +80,32 @@ body {
     width: 300px;
     height: auto;
     background: white;
-    margin-left: 20px;
-    
+    margin-left: 30px;
+    border-radius: 7px;
 }
 
+.review::before {
+    content: '';
+    position: absolute;
+    left: -13px;
+    top:40px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid rgb(255, 255, 255);
+    }
 
-.rank , .name {
+[class*="rank"] , .name {
     font-family: 'Nunito', sans-serif;
     font-size: 12px;
     font-style: italic;
     font-weight: 600;
     color:#3070a8;
+}
+
+.rank3 {
+    text-decoration: line-through;
 }
 
 .name {
@@ -97,7 +122,7 @@ body {
 }
 
 
-.rank {
+[class*="rank"] {
     text-align: right;
     position: absolute;
     right: 20px;
@@ -111,8 +136,9 @@ body {
     height:40px;
     border-bottom: 2px dotted #cfcdcd;
 }
+
 [class*="text"] {
-    margin:8px 15px 8px 20px;
+    margin:10px 15px 7px 20px;
     text-align: start;
     font-size: 12px;
     line-height: 1.5;
@@ -120,5 +146,3 @@ body {
     display: inline-block;
 }
 
-.conteiner {border:2px solid red}
-.review {border:2px solid green}
