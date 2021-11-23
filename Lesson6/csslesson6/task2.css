@@ -33,36 +33,92 @@ body {
     font-size: 42px;
 }
 
-.main {
-    border: 3px solid red;
+.wrapper {
     display: flex;
     justify-content: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: row;
-
-
 }
 
+.main {
+    display: flex;
+    width: 1000px;
+}
 .conteiner {
     display: flex;
-    border: 2px solid green;
     margin-left: 40px;
-
 }
 
-.picture {
+/* тут хранятся картинки. Общий класс [class*="picture"]  должен обязательно находится ниже */
+
+.picture1 {
+    background: url(pic1.png);
+}
+
+.picture2 {
+    background: url(pic2.png);
+}
+
+[class*="picture"] {
     display: block;
-    width:75px;
-    height:75px;
-    background:orange;
+    width:100px;
+    height:100px;
+    background-size: cover;
 }
 
 .review {
-    display: block;
+    position:relative;
+    display: inline-block;
     width: 300px;
-    height:75px;
+    height: auto;
     background: white;
     margin-left: 20px;
     
 }
+
+
+.rank , .name {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 600;
+    color:#3070a8;
+}
+
+.name {
+    text-align: left;
+    position:absolute;
+    left:30px;
+    top:10px;
+}
+
+.name::before {
+    content: '-';
+    position: absolute;
+    left:-10px;
+}
+
+
+.rank {
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    
+}
+
+.border__dotted {
+    margin: 0 auto; 
+    width: 92%;
+    height:40px;
+    border-bottom: 2px dotted #cfcdcd;
+}
+[class*="text"] {
+    margin:8px 15px 8px 20px;
+    text-align: start;
+    font-size: 12px;
+    line-height: 1.5;
+    color:#666666;
+    display: inline-block;
+}
+
+.conteiner {border:2px solid red}
+.review {border:2px solid green}
