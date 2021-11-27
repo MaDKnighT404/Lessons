@@ -15,28 +15,24 @@ html,body {
     padding: 0;
 }
 
-body{
-    display: flex;
-    justify-content:center;
-}
-
-.main__conteiner{ 
+.price__main__conteiner{ 
     position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 800px;
     margin-top: 150px;
+    margin: 0 auto;
 }
 
-.conteiner__left {
+.price__conteiner__left {
     position: absolute;
     left: 4%;
     z-index: 1;
   
 }
 
-.conteiner__center {
+.price__conteiner__center {
     position: absolute;
     left: 273px;
     top: 128px;
@@ -44,28 +40,27 @@ body{
 
 }
 
-.conteiner__right {
+.price__conteiner__right {
     position: absolute;
     right: 4%;
     z-index: 2;
 }
 
-.header {
+.price__header {
     color:#40525c;
     margin:50px 0 55px 0;
     text-transform: uppercase;
     font-size: 26px;
     
 }
-.conteiner__border {
+.price__conteiner__border {
     border-right: 1px solid #808080;
     border-left: 1px solid #808080;
     border-bottom: 1px solid #808080;
     border-radius: 0 0 5px 5px;
-
 }
 
-.conteiner__border__center {
+.price__conteiner__border__center {
     border:3px solid #ee8129;
     background: white;
     border-radius: 0 0 5px 5px;
@@ -73,17 +68,17 @@ body{
                  2px 4px 2px 2px rgba(31, 76, 111, 0.09);
 }
 
-.conteiner {
+.price__conteiner {
     display: flex;
     margin:0 auto;
 }
 
-[class*="conteiner_"] {
+[class*="price__conteiner_"] {
     width: 250px;
     
 }
 
-[class*="title_"] {
+[class*="price__title_"] {
     color:#fff;
     font-size: 20px;
     font-weight:900;
@@ -95,33 +90,33 @@ body{
     
 }
 
-.title__left {
+.price__title__left {
     background:#2ac2d5;
 }
 
-.title__center {
+.price__title__center {
     background:#ee8129;
     padding:15px 0;
     box-shadow: 0px -2px 1px 2px rgba(31, 76, 111, 0.09);
 }
 
-.title__right {
+.price__title__right {
     background:#1cb79a;
 }
 
-[class*="title2"] {
+[class*="price__title2"] {
     text-transform: uppercase;
     padding:10px 0 0 0;
     font-size: 20px;
 }
 
-[class*="cost"]{
+[class*="price__cost"]{
     position: relative;
     color:#35495a;
     left:20px;
 }
 
-[class*="sup"] {
+[class*="price__sup"] {
     position: absolute;
     font-size: 24px;
     left:44px;
@@ -129,16 +124,16 @@ body{
 
 }
 
-[class*="money"] {
+[class*="price__money"] {
     font-size: 65px;
 }
 
-[class*="month"] {
+[class*="price__month"] {
     font-weight: bold;
     text-transform: capitalize;
 }
 
-[class*="table"] {
+[class*="price__table"] {
     position: relative;
     display: inline-block;
     width: 213px;
@@ -147,14 +142,14 @@ body{
     margin:10px 0;
 }
 
-[class*="cell"] {
+[class*="price__cell"] {
     padding:4px;
     margin:1px;
     color:#7f8086;
     padding-inline-start: 50px;
 }
 
-[class*="cell"]::before { 
+[class*="price__cell"]::before { 
     content: url("../csslesson6/-.png");
     position: absolute;
     zoom: 5%;
@@ -162,18 +157,20 @@ body{
     
 }
 
-ul{
+/* таблица у цен */
+
+[class*="price__table_"]{
     list-style: none;
 }
 
-li:nth-child(odd) { 
+[class*="price__table_"] li:nth-child(odd) { 
     background-color: #EDF5FD;
 }
-li:nth-child(even) {
+[class*="price__table_"] li:nth-child(even) {
     background-color: #F5F5F6;
 }
 
-[class*="button__"] {
+[class*="price__button__"] {
     padding:12px 60px 9px 60px;
     margin:10px 0 20px 0;
     background: #2f70a8;
@@ -186,22 +183,22 @@ li:nth-child(even) {
     transition-duration: 0.4s;
 }
 
-.button__center {
+.price__button__center {
     background: #ee8129;
     border-bottom: 3px solid #693810;
     margin-bottom: 30px;
     margin-top: 10px;
 }
 
-.button__left:hover {
+.price__button__left:hover {
     background: #2ac2d5;
 }
 
-.button__center:hover {
+.price__button__center:hover {
     background:#ff7300;
 }
 
-.button__right:hover {
+.price__button__right:hover {
     background:#1cb79a;
 }
 
