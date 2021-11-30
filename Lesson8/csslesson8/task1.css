@@ -1,0 +1,13 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    background: white;
+    font-family: 'Economica', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
