@@ -11,3 +11,84 @@ html,body {
     margin: 0;
     padding: 0;
 }
+
+/* первая поисковая */
+
+.main__conteiner {
+    position: relative;
+    margin:60px auto;
+    width: 600px;
+    height: 52px;
+    background: orange;
+}
+
+.main__conteiner::after {
+    content: '';
+    position: absolute;
+    top:0;
+    right:-25px;
+    width: 0;
+    height: 0;
+    border-top: 26px solid transparent;
+    border-bottom: 26px solid transparent;
+    border-left: 25px solid orange;
+}
+
+#search {
+    margin:5px;
+    min-width: 500px;
+}
+
+#button {
+    width: 50px;
+}
+
+#site {
+    margin-left:5px;
+}
+
+label {
+    font-size: 13px;
+}
+
+/* вторая поисковая  */
+
+.main__conteiner2 {
+    position: relative;
+    margin:180px auto;
+    width: 600px;
+    height: 52px;
+    background: linear-gradient(yellow,orange);
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top:8px;
+    right:-78px;
+    width: 37px;
+    height: 36px;
+    margin-right: 60px;
+    transform: rotate(45deg);
+    background: linear-gradient(to right bottom, yellow,orange);
+}    
+
+#search2 {
+    margin:5px;
+    min-width: 500px;
+}
+
+#button2 {
+    width: 50px;
+}
+
+p {
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+span {
+    border-bottom:1px dotted black;
+}
+
+
